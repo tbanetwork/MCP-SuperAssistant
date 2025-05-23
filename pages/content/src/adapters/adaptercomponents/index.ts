@@ -38,6 +38,11 @@ export {
   initT3ChatComponents
 } from './t3chat';
 
+// Export LangDock components initializer
+export {
+  initLangDockComponents
+} from './langdock';
+
 // Note: Functions like insertToggleButtons, handleAutoInsert, handleAutoSubmit
 // are now part of the common framework and are not directly exported per adapter.
 // The initialization functions configure and start the common framework for each site.
